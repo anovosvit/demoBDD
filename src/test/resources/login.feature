@@ -1,5 +1,8 @@
 Feature: Login User
 
+  As a User
+  I want to be able to login with my email and password on the login page
+
   Scenario: User login with correct credentials
     Given I go to login page
     When I login as user "lyonka1@mail.ru" with password "voPtaf-qezjih-hephy9"
